@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skipped="0" tests="2" time="0.067"><testcase classname="test_demo" file="test_demo.py" line="1" name="test_demo1" time="0.002"></testcase><testcase classname="test_demo" file="test_demo.py" line="4" name="test_demo2" time="0.001"><failure message="assert 2 == 3">def test_demo2():
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="2" name="pytest" skipped="0" tests="6" time="0.120"><testcase classname="test_demo" file="test_demo.py" line="1" name="test_demo1" time="0.001"></testcase><testcase classname="test_demo" file="test_demo.py" line="4" name="test_demo2" time="0.001"><failure message="assert 2 == 3">def test_demo2():
 &gt;       assert 2 == 3
 E       assert 2 == 3
 
-test_demo.py:6: AssertionError</failure></testcase></testsuite>
+test_demo.py:6: AssertionError</failure></testcase><testcase classname="test_demo" file="test_demo.py" line="7" name="test_demo3" time="0.001"><failure message="assert 3 == 5">def test_demo3():
+&gt;       assert 3 == 5
+E       assert 3 == 5
+
+test_demo.py:9: AssertionError</failure></testcase><testcase classname="test_demo" file="test_demo.py" line="10" name="test_demo4" time="0.001"></testcase><testcase classname="test_demo" file="test_demo.py" line="13" name="test_demo5" time="0.001"></testcase><testcase classname="test_demo" file="test_demo.py" line="16" name="test_demo6" time="0.001"></testcase></testsuite>
